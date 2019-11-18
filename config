@@ -1,0 +1,11 @@
+# UMich GitLab
+Host glab
+HostName gitlab.umich.edu
+User nagilson
+IdentityFile ~/.ssh/id_rsa
+
+# CAEN
+Host caen
+	HostName login.engin.umich.edu
+	User nagilson
+	Compression yes
